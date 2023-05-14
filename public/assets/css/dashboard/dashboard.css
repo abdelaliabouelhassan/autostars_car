@@ -1,0 +1,76 @@
+.search-form-container{
+    position:relative;
+    display:flex;
+    justify-content:end;
+    margin: 20px 0;
+}
+.search-form-container .search-trigger{
+    float:unset;
+    
+}
+.search-form-container .search-form{
+    position:absolute;
+    top:3.25rem;
+    right:0;
+    z-index:20;
+    display: none;
+}
+.search-form-inner{
+    padding: 20px;
+}
+.pagination_container{
+    width :100%;
+    display:flex;
+    justify-content: center;
+}
+
+
+.action-btn.btn{
+    padding: 5px 10px;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px 0;
+}
+.action-btn.update{
+    background-color: rgb(48, 171, 171);
+}
+.action-btn.archive , .action-btn.bulk_archive{
+    background-color: rgb(214, 138, 58);
+}
+.action-btn.delete , .action-btn.bulk_delete{
+    background-color: rgb(214, 68, 58);
+}
+.action-btn.restore , .action-btn.bulk_restore{
+    background-color: rgb(48, 171, 108);
+}
+.action-btn.super{
+    background-color: rgb(48, 124, 171);
+}
+
+.statistics-card-list{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.statistics-card{
+    padding: 10px;
+    min-width: 160px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #5BC0DE;
+}
+.statistics-card>h3{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.statistics-card>div{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+
+}

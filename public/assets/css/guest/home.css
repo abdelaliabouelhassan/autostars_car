@@ -1,0 +1,60 @@
+.hero-area .owl-carousel .item{
+    height: 75vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.hero-area .owl-carousel .item>h1{
+    color:white;
+    font-weight: bold;
+    font-size: 3rem;
+    padding:  0 50px;
+    text-align:center;
+}
+@media (min-width:576px) {
+    .hero-area .owl-carousel .item>h1{
+        font-size: 4rem;
+    }
+}
+@media (min-width:768px) {
+    .hero-area .owl-carousel .item>h1{
+        font-size: 5rem;
+        padding:  0 100px;
+    }
+}
+
+.hero-area .owl-carousel .item1{
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),url('/assets/images/home/carousel_img1.jpg') ;
+    background-size : cover ;
+    background-repeat: no-repeat;
+    background-position-y : 80% ;
+}
+.hero-area .owl-carousel .item2{
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),url('/assets/images/home/carousel_img2.jpg') ;
+    background-size : cover ;
+    background-repeat: no-repeat;
+    background-position-y : 80% ;
+    background-position-x : center ;
+}
+.vehicle-meta .vehicle-type:first-letter {
+    text-transform: uppercase;
+}
+
+
+#make-carousel .item.marque_item{
+    /* width: 100px;
+    height: 100px; */
+}
+
+#make-carousel .item.marque_item img{
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,23 @@
+.accordion-body{
+    padding:20px;
+}
+.add_new_field{
+    padding: 10px 20px;
+}
+
+.add_new_field_accordion{
+    padding: 0 20px;
+    margin: 0 30px;
+}
+.accordion-heading > a.add_new_field_accordion_header:hover , .accordion-heading > a.add_new_field_accordion_header.active{
+    color:black;
+}
+
+.accordion-body .row .imgs_section{
+    margin-bottom:30px;
+}
+.accordion-body .row .imgs_section .images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

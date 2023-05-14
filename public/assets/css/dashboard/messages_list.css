@@ -1,0 +1,96 @@
+.search-form-container{
+    position:relative;
+    display:flex;
+    justify-content:end;
+    margin: 20px 0;
+}
+.search-form-container .search-trigger{
+    float:unset;
+    
+}
+.search-form-container .search-form{
+    position:absolute;
+    top:3.25rem;
+    right:0;
+    z-index:20;
+    display: none;
+}
+.search-form-inner{
+    padding: 20px;
+}
+
+
+
+
+.messages-list{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 20px;
+}
+
+.messages-list>.message-item{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.139);
+    color: black;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.messages-list>.message-item>.checkbox_container{
+    padding: 5px;
+}
+
+
+.messages-list>.message-item>.message-item-subject{
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.messages-list>.message-item>.message-item-see{
+    padding: 10px 20px;
+}
+.messages-list>.message-item>.message-item-see:hover{
+    background-color: aliceblue;
+}
+.messages-list>.message-item>.message-item-date , 
+.messages-list>.message-item>.message-item-id,
+.messages-list>.message-item>.message-item-subject,
+.messages-list>.message-item>.message-item-see {
+    padding: 0 10px;
+    border-left: rgba(0, 0, 0, 0.286) solid 1px;
+}
+
+.messages-list .dropdown .dropdown-menu li{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.messages-list .dropdown .dropdown-menu li.archive:hover{
+    background-color: rgb(247, 174, 97);
+    color: white;
+}
+.messages-list .dropdown .dropdown-menu li.delete:hover{
+    color: white;
+    background-color: rgb(248, 129, 120);
+}
+
+.messages-list .dropdown .dropdown-menu li.restore:hover{
+    color: white;
+    background-color: rgb(120, 248, 131);
+}
+
+
+.bulk_btns_container , .pagination_container{
+    margin: 20px 0
+}
+.pagination_container{
+    display: flex;
+    justify-content: center;
+    
+}

@@ -1,0 +1,22 @@
+.sidebar-widget .list-group-item {
+    display:flex; 
+    justify-content:space-between;
+}
+.sidebar-widget .list-group-item .specification-value {
+    max-width:60%; 
+    word-break: break-all;
+}   
+.sidebar-widget .list-group-item .specification-value:first-letter,
+.sidebar-widget .list-group-item .badge:first-letter
+{
+    text-transform: uppercase;
+}
+.sidebar-widget .list-group-item .badge {
+    height: fit-content;
+} 
+
+.single-listing-images .featured-image{
+    display:flex; 
+    justify-content:center;
+    align-items:center;
+}
