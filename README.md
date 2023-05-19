@@ -16,6 +16,7 @@
 - [installer le composer](https://getcomposer.org/download/)
 - ouvrez le projet dans votre terminal
 - `cd` dans le répertoire du projet - (pour accéder au projet)
+- `cd` to core folder - (pour accéder au dossier core) (toutes les commandes ci-dessous seront exécutées dans le dossier core)
 - exécutez `composer install` - (pour installer les dépendances)
 - créer une base de données sur votre machine locale
 - renommer le fichier .env.example en .env
@@ -23,7 +24,7 @@
 - exécutez `php artisan key:generate` - (pour générer la clé de l'application)
 - exécutez `php artisan migrate` - (pour migrer la base de données, cela créera les tables dans la base de données)
 - exécutez `php artisan db:seed` - (pour amorcer la base de données, cela créera un utilisateur aléatoire et des données pour l'application) 
-- exécutez `php artisan serve` - (pour démarrer le serveur, cela démarrera le serveur sur http://127.0.0.1:8000 par défaut)
+- exécutez `php artisan serve` - (pour démarrer le serveur, cela démarrera le serveur sur http://127.0.0.1:8000 par défaut) ou ouvrez le projet sur votre serveur local (xampp, wamp, etc.)
 
 
 
